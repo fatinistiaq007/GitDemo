@@ -13,9 +13,17 @@ print("value is", c+10)
 
 def getData(self):
     print("I am now executing as method in class")
+
+
 def addition(self):
     return self.first_num + self.second_num + self.num
 
 
+def subtraction(self):
+    return self.first_num - self.second_num - self.num
+
+
+def multiplication(self):
+    return self.first_num * self.second_num * self.num
 
 
